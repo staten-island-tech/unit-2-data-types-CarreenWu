@@ -36,4 +36,18 @@ if 0 == x%2:
 else:
     print('odd') """
 
-bill = okay
+bill=25
+service=input('how was the service?')
+if service == 'great' :
+    bill=bill*.25
+    print(bill)
+elif service == "good" :
+    bill=bill*.20
+    print(bill)
+elif service == 'okay' :
+    bill=bill*.15
+    print(bill)
+elif service == 'bad' :
+    bill=bill*0
+    print(bill)
+

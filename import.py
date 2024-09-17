@@ -36,8 +36,8 @@ if 0 == x%2:
 else:
     print('odd') """
 
-bill=25
-service=input('how was the service?')
+""" bill=25
+service=input('how was the meal?')
 if service == 'great' :
     bill=bill*.25
     print(bill)
@@ -49,5 +49,10 @@ elif service == 'okay' :
     print(bill)
 elif service == 'bad' :
     bill=bill*0
-    print(bill)
+    print(bill) """
 
+x = input("provide me a sentence.")
+if x == "hello, how are you?":
+    print("4 words")
+else:
+    print("again")

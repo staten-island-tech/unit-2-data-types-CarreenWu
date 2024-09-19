@@ -51,7 +51,6 @@ elif service == 'bad' :
     bill=bill*0
     print(bill) """
 
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
+test_string =input "this is a thing"
+y= x.split( )
+print(y)

@@ -51,6 +51,10 @@ elif service == 'bad' :
     bill=bill*0
     print(bill) """
 
-test_string =input "this is a thing"
-y= x.split( )
-print(y)
+""" string = input("give me a sentence")
+words = string.split()
+count=0
+for i in words:
+    count=count+1
+    print(count) """
+

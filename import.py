@@ -51,10 +51,22 @@ elif service == 'bad' :
     bill=bill*0
     print(bill) """
 
-""" string = input("give me a sentence")
+""" string = input("give me a sentence. ")
 words = string.split()
 count=0
 for i in words:
     count=count+1
-    print(count) """
+    print(count)  """
 
+""" num=int(input('give me a number. '))
+def factor(x):
+    print(f'factors of [x] are...')
+    for i in range(1, x + 12):
+        if x%i == 0:
+            print(i)
+
+factor(num)  """
+
+num=int(input('give me two numbers. '))
+def GCF(x,y):
+    

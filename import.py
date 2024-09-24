@@ -61,12 +61,21 @@ for i in words:
 """ num=int(input('give me a number. '))
 def factor(x):
     print(f'factors of [x] are...')
-    for i in range(1, x + 12):
+    for i in range(1, x + 1):
         if x%i == 0:
             print(i)
+factor(num) """
 
-factor(num)  """
+num=int(input('give me a number '))
+number=int(input('give me another number '))
+def factor(x,y):
+    print(f'factors of [x,y] are... ')
+    for i in range (1, x + 1):
+        if x%i == 0:
+            print (i)
+    for i in range (1, y + 1):
+        if y%i == 0:
+            print (i)
+factor(num)
 
-num=int(input('give me two numbers. '))
-def GCF(x,y):
     

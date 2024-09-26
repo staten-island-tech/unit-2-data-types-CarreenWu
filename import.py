@@ -69,10 +69,9 @@ factor(num) """
 num=int(input('give me a number '))
 number=int(input('give me another number '))
 def gcf(x,y):
-    greatest_common_factor=1
     for i in range (1, min(y,x)+1):
         if x%i == 0 and y%i==0:
             greatest_common_factor=i
     return greatest_common_factor
 result = gcf(num,number)
-print(f"the of gcf(num) and(number) is: {result}")
+print(f"the gcf is: {result}")
